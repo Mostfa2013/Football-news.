@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostafa's Football News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .news {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        article {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0px 0px 10px gray;
+            border-radius: 10px;
+        }
+
+        article img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mostafa's Football News</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Latest News</a></li>
+                <li><a href="#">Matches</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="news">
+            <article>
+                <img src="https://via.placeholder.com/300" alt="Real Madrid Match">
+                <h2>Real Madrid Wins Another Trophy!</h2>
+                <p>Real Madrid secures another victory, continuing their dominance in European football.</p>
+                <button onclick="readMore()">Read More</button>
+            </article>
+
+            <article>
+                <img src="https://via.placeholder.com/300" alt="Messi News">
+                <h2>Messi Breaks Another Record</h2>
+                <p>Lionel Messi becomes the all-time top scorer in international football history.</p>
+                <button onclick="readMore()">Read More</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Mostafa's Football News. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function readMore() {
+            alert("Wait until mostafa put something");
+        }
+    </script>
+</body>
+</html>
